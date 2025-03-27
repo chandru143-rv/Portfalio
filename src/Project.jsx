@@ -19,7 +19,7 @@ const Project = () => {
                   <p className="sum">I developed my personal portfolio website using a combination of HTML, CSS, JavaScript, React, and Bootstrap. The portfolio serves as both a showcase of my web development skills and a demonstration of how I can 
                     integrate various technologies into one cohesive, user-friendly web experience. 
                     <div className="link-btn">
-                <a className='nav-link btn-success' type='button' href='https://chandru143-rv.github.io/Art-Anieme/'><button>Click me</button></a>
+                <a className='nav-link btn-success' type='button' href='https://chandrur.netlify.app/'><button>Click me</button></a>
 
                 </div>
                 </p>
