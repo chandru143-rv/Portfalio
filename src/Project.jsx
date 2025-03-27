@@ -32,7 +32,7 @@ const Project = () => {
            </div>
            <div className="por-2">
            <div className='porject-2'>
-           <img src=".Screenshot (7).png" alt="" height={200} width={400} />
+           <img src="Screenshot (7).png" alt="" height={200} width={400} />
            <div className="content">
              <details>
               <summary style={{minWidth:'200px'}}> Descrption </summary>
