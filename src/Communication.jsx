@@ -5,8 +5,8 @@ const Communication = () => {
     <>
     <div className="row comum cont">
           <p className='h2  ms-5 'data-aos="fade-up-right"  data-aos-delay="50"
-       data-aos-duration="2000" style={{color:'white', letterSpacing:'1rem'}}>Contact</p>
-        <form action="https://formsubmit.co/vchandrukadambur71@gmail.com" method='post' className='contact-form'>
+       data-aos-duration="2000" style={{ color:'white', letterSpacing:'1rem'}}>Contact</p>
+        <form action="https://formsubmit.co/vchandrukadambur71@mail.com" method='POST' className='contact-form'>
         <div className="cente">
            <div className="topic">
             <p className='title h3'>contact me</p>
