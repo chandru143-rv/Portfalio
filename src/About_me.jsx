@@ -12,7 +12,7 @@ const About_me = () => {
       <div className="row mt-5 ms-5 cotent" data-aos="fade-up-left"  data-aos-delay="50"
           data-aos-duration="2000">
             <div className='col-6 abotimage'>
-                <img className='ms-3 image' src="./src\IMG_20250320_135411 (1).jpg" alt=""  height={310} width={300}/>
+                <img className='ms-3 image' src="IMG_20250320_135411 (1).jpg" alt=""  height={310} width={300}/>
             </div>
             <div className='col-6 mt-3 about'>
                 <p>Hello! I'm Chandru, a Java Full Stack Developer  with a strong passion for building scalable, 

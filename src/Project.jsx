@@ -10,7 +10,7 @@ const Project = () => {
        <div className='row  ms-2 mt-5 porject-main content'data-aos="zoom-in-down" data-aos-delay="50" data-aos-duration="2000">
            <div className="por-1">
                <div className='porject-1'>
-                      <img src="./src\porjectImage\Screenshot (4).png" alt="" height={200} width={400} />
+                      <img src="Screenshot (4).png" alt="" height={200} width={400} />
                       <div className="content">
                       <details>
                  <summary style={{minWidth:'200px'}}>Descrption</summary>
@@ -32,7 +32,7 @@ const Project = () => {
            </div>
            <div className="por-2">
            <div className='porject-2'>
-           <img src="./src\porjectImage\Screenshot (7).png" alt="" height={200} width={400} />
+           <img src=".Screenshot (7).png" alt="" height={200} width={400} />
            <div className="content">
              <details>
               <summary style={{minWidth:'200px'}}> Descrption </summary>
