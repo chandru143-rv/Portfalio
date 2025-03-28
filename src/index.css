@@ -698,11 +698,13 @@ footer .footer-links{
     height:100%;
   }
   .comum .contact-form{
-    width:70% !important;
+    width:50% !important;
+    position: relative;
+    left:-10% !important;
   }
   .comum .form-dummy{
     position: relative;
-    left:-15%;
+    left:-30%;
   }
   
   
