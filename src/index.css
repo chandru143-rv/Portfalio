@@ -500,7 +500,7 @@ footer .footer-links{
 }
 /* responsive */
 
- @media(max-width: 1024px) {
+@media only screen and(max-width: 1024px) {
 
  
     
@@ -508,7 +508,7 @@ footer .footer-links{
 }
 
 
-@media (max-width:768px){
+@media only screen and (max-width:768px){
   .abou-content .abotimage{
     position: relative;
     left:30%;
