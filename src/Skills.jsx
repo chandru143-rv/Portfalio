@@ -10,7 +10,7 @@ const Skills = () => {
 
     <div className='row  ms-2 mt-5 skil content'data-aos="zoom-in-down" data-aos-delay="50" data-aos-duration="2000">
     <div className="sii">  
-         <div className=" front">
+         <div className="front">
              <p className='h3 heading'>Frontend</p>
               <ul>
                 <li className='h5'>HTML</li>

@@ -5,10 +5,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Charm:wght@400;700&family=Great+Vibes&family=Jomhuria&family=Passion+One:wght@400;700;900&family=Ponomar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&family=Teko:wght@300..700&family=Tektur:wght@400..900&display=swap');
 body{
-  background-color: rgb(0, 0, 0) !important;
+  background-color:rgb(0, 0, 0) !important;
   overflow-x: hidden !important;
-  width: 100dvw;
 }
+
+
+
+
 nav{
   background-color:rgba(52, 107, 68, 0.27);
   backdrop-filter:blur(5px);
@@ -22,7 +25,8 @@ nav{
 
 }
 .home-cont{
-  margin-top:10%;
+  margin-top:5%;
+  
 }
 .comum form{
   padding:1%;
@@ -56,9 +60,10 @@ span:nth-child(6){
   color:green;
 }
 .box{
-  margin-top:7% !important;
+  margin-top:5% !important;
  
 }
+
 .navbar-brand:hover{
   color:green !important;
   text-shadow:
@@ -177,11 +182,11 @@ button::first-letter{
   font-style: normal;
 }
 .abou-content{
-  margin-top:-5%;
- 
+  margin-top:10% !important;
+  height:90vh;
 }
 .image{
-  margin-top:18%;
+  margin-top:0%;
   border-radius:10%;
   box-shadow:0px 5px 15px rgb(106, 196, 106),
   0px 5px 5px rgb(106, 196, 106),
@@ -371,6 +376,13 @@ button::first-letter{
     color: transparent;
   }
 
+  .sii {
+    display: flex;             
+    gap:5rem;                 
+    justify-content: center;    
+    align-items: flex-start;   
+    width: 100%;               
+  }
   @keyframes fade{
   
     25%{
@@ -488,47 +500,54 @@ footer .footer-links{
 }
 /* responsive */
 
- @media only screen and (min-width: 1024px) {
-  body{
-    overflow-x: hidden;
-  }
-  .navbar-nav{
-    margin-left:35%;
-  }
-  .navbar-brand{
-   
-    letter-spacing:10px;
-      font-family: "Charm", cursive;
-    font-weight: 700;
-    font-style: normal;
+ @media(max-width: 1024px) {
+
+ 
     
-  }
-  .box{
-    height:80vh;
-    margin-top:-20% !important;
-    margin-left:50% !important;
-  }
-    
-.abou-content{
-  height:110vh;
-}
+
 }
 
-@media only screen and (min-width:768px){
-  
-  .box{
-    margin-top:-350px !important;
+
+@media (max-width:768px){
+  .abou-content .abotimage{
+    position: relative;
+    left:30%;
+    top: -22% !important;
+    padding:20px;
+  }
+  .cotent .about{
+    width:100% !important;
+  }
+  .cotent .abotimage{
+    position: relative;
+    left:30%;
+    padding:15px;
+  }
+  .cotent{
+    position: relative;
+    top:-200px;
   }
   
+  
+  
+  .abou-content .cotent{
+    position: relative;
+    top: -30% !important;
+  }
   .abou-content{
-    height:130vh;
+    height:165vh !important;
+  }
+  .home-cont{
+    overflow: hidden;
+  }
+  .contact-content{
+    height:100vh;
   }
   .abou-content .about{
-    margin-left:-5%;
+    margin-left:0%;
+    width:100% !important;
   }
-  .education-content{
-    margin-top:-20% !important;
-  }
+  
   
 
 .sii {
@@ -559,15 +578,14 @@ h5 {
   margin: 0.5rem 0;           
 }
 
-
-} 
-
-
-
-@media only screen and (max-width:768px) {
-  .box{
+.box{
     position: relative;
-    left:375px;
+     left:70px;
+     top:70px;
+  }
+  .conc{
+    position: relative;
+    top:-30px;
   }
   .comum{
     margin-left:-100px !important;
@@ -664,23 +682,43 @@ h5 {
 
   width:80%;
  }
-}
+} 
 
-@media only screen and (max-width:425px){
-  .body{
-    overflow: hidden;
+ @media  (max-width:425px){
+  .front, .backend, .data {
+      height:100%;             
+    text-align: center;
+     box-shadow:none;      
   }
+  
   .symbol .bi-envelope{
     position: absolute;
    top:50% !important;
-   left:50%;
+   left:20%;
  
   }
   .comum{
-    height:150dvh;
+    height:140dvh;
     width:475px !important;
     margin-left:-50px !important;
-   
+  }
+  .comum form{
+    position: relative;
+  }
+ 
+  .porject-main {
+    height: auto !important;
+   display: grid;
+   row-gap:30rem;
+   grid-template-columns: auto;
+  }
+  .cotent{
+    position: relative;
+    top:-170px !important;
+  }
+  .home-cont{
+    height:1015vh !important;
+    overflow: hidden !important;
   }
   .comum .contact-form{
     position: relative;
@@ -703,8 +741,19 @@ h5 {
    left:-90px;
   }
   .skill_main{
-    height:125dvh;
+    height:150vh;
+    
   }
+ 
+  .porject-main .por-1 .porject-1  details .suround ,.porject-main .por-2 .porject-2  details .suround{
+     height:20em;
+  }
+
+  .sii{
+
+    display:grid;
+    grid-template-columns: auto;
+   }
   .cotent{
     position: relative;
     top:-300px;
@@ -712,7 +761,10 @@ h5 {
   }
   .eaducation-con{
     height:195dvh !important;
-   
+    margin-left:-10px;
+  }
+  .abou-content{
+    left:-5%;
   }
   .cotent .about{
     position: relative;
@@ -722,26 +774,16 @@ h5 {
 
   }
   .box{
-    height:70dvh;
+    height:60dvh;
     top:40px;
     left:20px;
   }
-  .symbol{
-    
-    margin-left:20px;
-    margin-top:-50px !important;
-    display: grid !important;
-    grid-column:auto !important;
+  .abou-content .cotent .about{
+    position: relative;
+    left:13% !important;
   }
-  .symbol .bi:nth-child(1){
-    margin-left:100px;
-    margin-top:130px;
-  }
-  .symbol .bi:nth-child(2){
-    margin-top:240px;
-    margin-left:180px;
-  }
-  
+ 
+
 .conc{
     width:100% !important;
     height:200px;
@@ -759,32 +801,49 @@ h5 {
   .education-content{
     position: relative;
     top:-300px !important;
+    height:240vh !important;
   }
   .about-head{
     overflow:hidden !important;
   }
+  .home-cont .conc .con button{
+    margin-top:-20px;
+    margin-left:40%;
+  }
   .home-cont{
-    height:150dvh;
+    margin-top:10%;
     overflow: hidden;
+  }
+  .cotent .about{
+    position: relative;
+    left:35px !important;
   }
   .abou-content{
     margin-left:-2px !important;
     padding:10px;
     height:max-content !important;
     width:100% !important;
-   margin-top:-10% !important;
+   margin-top:-2% !important;
   }
   .abou-content .cotent{
-  position: relative;
-  top:-300px;
+   position: relative;
+    top:-300px !important;
+  }
+  .abou-content .cotent .about{
+    position:relative;
+    left:-40px;
   }
   .Skills-content{
     position: relative;
     top:-400px;
     
   }
+ 
+
+  
   .contact-content{
     position: relative;
+    top:-700px !important;
   }
 .project-content{
   position: relative;
@@ -792,7 +851,7 @@ h5 {
   left:3px;
   height:210vh !important;
   width:400px !important;
-  
+
 }
 .container{
   overflow: hidden !important;
@@ -853,11 +912,18 @@ h5 {
     text-decoration-color:rgb(55, 235, 136);
     text-decoration-thickness: 5px;
   }
-}
+} 
 
-@media only screen and (max-width:375px) {
+ @media (max-width:375px) {
 
+   .symbol .bi:nth-child(1){
+    margin-top:34px;
+   }
+   .cotent .abotimage{
+    left:55px;
+   }
 
+   
   .comum{
     height:150vh;
     width:355px !important;
@@ -888,6 +954,9 @@ h5 {
     width:380px !important;
    
   }
+  .eaducation-con{
+    height:250vh !important;
+  }
  
   .contact-content .comum form{
     width:270px !important;
@@ -896,20 +965,63 @@ h5 {
    left:-3px;
    
   }
-  .skill_main{
-  height:170vh;
-  }
   .Skills-content{
-    top:-100px !important;
+    position: relative;
+    top:-150px;
   }
+  .project-content{
+    position: relative;
+    top:-150px;
+  }
+  .contact-content{
+    position: relative;
+    top:-150px !important;
+  }
+  .project-content{
+    overflow: hidden;
+  }
+  .home-cont{
+    height:1100vh !important;
+  }
+  footer{
+    width:100%;
+  }
+  footer h2{
+    margin-left:20px;
+  }
+  
   .abou-content{
     height:230vh !important;
   }
   .education-content{
-    height:220vh !important;
+    height:250vh !important;
      top:-10px !important;
+    }
+    details .suround a{
+      overflow: hidden;
+    }
+    .porject-main{
+      display: flex;
+      align-items: center;
+      justify-content: center;
      
+    }
+    .about-head{
+      width:max-content !important;
+      overflow: hidden !important;
+
+    }
+    .cont{
+      width:150px;
+      overflow: hidden;
+    }
+    .project-content .porject-main details{
+    padding:20px;
+  } 
+  .project-content .porject-main details .sum{
+   width:324px !important;
   }
+  /* 
   .project-content{
     top:20px;
     width:350px !important;
@@ -919,13 +1031,8 @@ h5 {
   .project-content .porject-main .por-2{
     margin-top:2px !important;
   }
- .project-content .porject-main details{
-     padding:20px;
- } 
- .project-content .porject-main details .sum{
-  width:324px !important;
- }
-}
+  */
+} 
 .abotimage:hover{
 
  animation:opacit 1s infinite ;

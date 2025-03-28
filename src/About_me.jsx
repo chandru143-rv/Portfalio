@@ -7,14 +7,14 @@ const About_me = () => {
     <>
     <Mouse/>
   <p className='h2 ms-5 cont'data-aos="fade-up-right"  data-aos-delay="50"
-         data-aos-duration="2000" style={{color:'white', letterSpacing:'1rem',overflow:'hidden'
+         data-aos-duration="2000" style={{color:'white', letterSpacing:'1rem',overflow:'hidden',marginTop:'4rem'
          }}  >About</p>
-      <div className="row mt-5 ms-5 cotent" data-aos="fade-up-left"  data-aos-delay="50"
+      <div className="row  ms-3 cotent" data-aos="fade-up-left"  data-aos-delay="50"
           data-aos-duration="2000">
             <div className='col-6 abotimage'>
-                <img className='ms-3 image' src="IMG_20250320_135411 (1).jpg" alt=""  height={310} width={300}/>
+                <img className='image' src="IMG_20250320_135411 (1).jpg" alt=" ##"  height={310} width={300}/>
             </div>
-            <div className='col-6 mt-3 about'>
+            <div className='col-6  about'>
                 <p>Hello! I'm Chandru, a Java Full Stack Developer  with a strong passion for building scalable, 
                     efficient, and user-friendly web applications. Currently, I'm honing my skills in both front-end and back-end development,
                      and I’m excited to continue growing in this field.I have experience working with Java, Spring Boot,
