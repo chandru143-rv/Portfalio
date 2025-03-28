@@ -718,6 +718,9 @@ footer .footer-links{
     text-decoration-color:rgb(55, 235, 136);
     text-decoration-thickness: 5px;
   }
+  .por-1 img,.por-2 img{
+    width:100%;
+  }
 } 
 
  @media  only screen and (max-width:491px) {
