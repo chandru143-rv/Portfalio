@@ -1,13 +1,16 @@
-import React from 'react'
-import { Link,Outlet} from 'react-router-dom'
+import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 
 const NavBar = () => {
+  const handleNavLinkClick = () => {
+    const collapseElement = document.getElementById("navbarSupportedContent");
+    const collapseInstance = new window.bootstrap.Collapse(collapseElement);
+    collapseInstance.hide(); 
+  };
+
   return (
-    
-
-
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container-fluid">
           <Link to="/" className="navbar-brand">
             <span>C</span>
@@ -36,32 +39,32 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/" className="nav-link active" aria-current="page">
+                <Link to="/" className="nav-link active" aria-current="page" onClick={handleNavLinkClick}>
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/About" className="nav-link">
+                <Link to="/About" className="nav-link" onClick={handleNavLinkClick}>
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/Education" className="nav-link">
+                <Link to="/Education" className="nav-link" onClick={handleNavLinkClick}>
                   Education
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/Skills" className="nav-link">
+                <Link to="/Skills" className="nav-link" onClick={handleNavLinkClick}>
                   Skills
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/Project" className="nav-link">
+                <Link to="/Project" className="nav-link" onClick={handleNavLinkClick}>
                   Project
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/Communication" className="nav-link">
+                <Link to="/Communication" className="nav-link" onClick={handleNavLinkClick}>
                   Contact
                 </Link>
               </li>
@@ -69,7 +72,7 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
-      
+
       {/* Outlet for nested routes */}
       <Outlet />
     </>
@@ -77,5 +80,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-
