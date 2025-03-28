@@ -671,6 +671,8 @@ footer .footer-links{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
+    left:-5%;
   }
   .project-content .porject-main .por-1,.project-content .porject-main .por-2{
     position: relative;
