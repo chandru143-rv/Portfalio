@@ -6,7 +6,7 @@ const NavBar = () => {
     <>
        <nav class="navbar navbar-expand-lg">
               <div class="container-fluid ">
-                       <Link to="/" class="navbar-brand" href="#">
+                       <Link to="/" class="navbar-brand" >
                            <span>C</span>
                             <span>H</span>
                            <span>A</span>
@@ -21,22 +21,22 @@ const NavBar = () => {
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                    <Link to="/" class="nav-link active" aria-current="page" href="/" >Home</Link>
+                    <Link to="/" class="nav-link active" aria-current="page"  >Home</Link>
               </li>
               <li class="nav-item">
-                <Link to="/About" class="nav-link" href="#">About</Link>
+                <Link to="/About" class="nav-link">About</Link>
               </li>
               <li class="nav-item">
-                <Link to="/Education" class="nav-link" href="#">Education</Link>
+                <Link to="/Education" class="nav-link">Education</Link>
               </li>
               <li class="nav-item">
-                <Link to='/Skills' class="nav-link" href="#">Skills</Link>
+                <Link to='/Skills' class="nav-link">Skills</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to='/Project' href="#">Project</Link>
+                <Link class="nav-link" to='/Project'>Project</Link>
               </li>
               <li class="nav-item">
-                <Link to='./Communication' class="nav-link" href="#">Contact</Link>
+                <Link to='./Communication' class="nav-link">Contact</Link>
               </li>
                 </ul>
             
