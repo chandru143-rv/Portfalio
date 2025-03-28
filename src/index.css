@@ -684,7 +684,7 @@ h5 {
  }
 } 
 
- @media  (max-width:425px){
+ @media  (max-width:600px){
   .front, .backend, .data {
       height:100%;             
     text-align: center;
