@@ -607,13 +607,13 @@ footer .footer-links{
  
   .symbol .bi-envelope{
     position: absolute;
-   top:50% !important;
+   top:35% !important;
    left:20%;
  
   }
   .symbol .bi-github{
     position: absolute;
-   top:50% !important;
+   top:35% !important;
    left:10%;
  
   }
@@ -655,7 +655,9 @@ footer .footer-links{
     justify-content: center;
     justify-items: center;
   }
-  
+  .abotimage{
+    margin-left:5%;
+  }
   
   .home-cont .conc .con button{
     margin-top:-20px;
@@ -678,7 +680,7 @@ footer .footer-links{
     position: relative;
     height:100%;
     width:100%;
-    left:18%;
+    left:6%;
     
   }
   #root{
@@ -700,7 +702,7 @@ footer .footer-links{
   }
   .comum .form-dummy{
     position: relative;
-    left:-25%;
+    left:-15%;
   }
   
   
