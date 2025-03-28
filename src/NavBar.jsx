@@ -73,7 +73,6 @@ const NavBar = () => {
         </div>
       </nav>
 
-      {/* Outlet for nested routes */}
       <Outlet />
     </>
   );
