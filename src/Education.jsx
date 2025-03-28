@@ -1,10 +1,10 @@
 import React from 'react'
-import Mouse from './Mouse'
+
 
 const Education = () => {
   return (
     <>
-    <Mouse/>
+    
  <div className="eaducation-con">
 
     <p className='h2 cont ms-5' data-aos="fade-up-right"  data-aos-delay="50"

@@ -2,7 +2,7 @@ import React from 'react';
 import About_me from './About_me';
 import Education from './Education';
 import Skills from './Skills';
-import Mouse from './Mouse';
+
 import Spline from '@splinetool/react-spline';
 import Project from './Project';
 
@@ -11,7 +11,6 @@ const Home = () => {
   return (
     <>
        
-        <Mouse/>
           <div className='container-fluid home-cont'>
             <div className="row">
                     <div className="col-2  symbol">

@@ -7,11 +7,13 @@ import NavBar from './NavBar';
 import Project from './Project';
 import Communication from './Communication';
 import Fotter from './Fotter';
+import Mouse from './Mouse';
 function App(){
     return(
 <>
 
 <NavBar></NavBar>
+<Mouse/>
 <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/About" element={<About_me/>}/>

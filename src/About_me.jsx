@@ -1,11 +1,11 @@
 import React from 'react'
-import Mouse from './Mouse'
+
 
 
 const About_me = () => {
   return (
     <>
-    <Mouse/>
+   
   <p className='h2 ms-5 cont'data-aos="fade-up-right"  data-aos-delay="50"
          data-aos-duration="2000" style={{color:'white', letterSpacing:'1rem',overflow:'hidden',marginTop:'4rem'
          }}  >About</p>

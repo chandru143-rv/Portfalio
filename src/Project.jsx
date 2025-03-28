@@ -1,9 +1,9 @@
 import React from 'react'
-import Mouse from './Mouse'
+
 const Project = () => {
   return (
     <>
-    <Mouse/>
+   
     
     <p className='h2 about-head ms-1 mt-5 cont' data-aos="fade-up"  data-aos-delay="50"
          data-aos-duration="2000">Project</p> 

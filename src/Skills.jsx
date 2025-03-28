@@ -1,9 +1,9 @@
 import React from 'react'
-import Mouse from './Mouse'
+
 const Skills = () => {
   return (
   <>
-  <Mouse/>
+  
   <div className='skill_main'>
   <p className='h2  ms-5 mt-5 cont'data-aos="fade-up-right"  data-aos-delay="50"
        data-aos-duration="2000" style={{color:'white', letterSpacing:'1rem' }}>Skills</p>
