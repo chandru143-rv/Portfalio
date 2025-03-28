@@ -607,13 +607,13 @@ footer .footer-links{
  
   .symbol .bi-envelope{
     position: absolute;
-   top:35% !important;
+   top:50% !important;
    left:20%;
  
   }
   .symbol .bi-github{
     position: absolute;
-   top:35% !important;
+   top:50% !important;
    left:10%;
  
   }
