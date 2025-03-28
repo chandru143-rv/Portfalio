@@ -3,10 +3,11 @@ import React from 'react'
 const Communication = () => {
   return (
     <>
-    <div className="row comum cont">
+    <div className="row comum cont mt-5">
           <p className='h2  ms-5 'data-aos="fade-up-right"  data-aos-delay="50"
        data-aos-duration="2000" style={{ color:'white', letterSpacing:'1rem'}}>Contact</p><break/>
-        <form action="https://formsubmit.co/vchandrukadambur71@mail.com" method='POST' className='contact-form'>
+     <div className="form-dummy">
+        <form action="https://formsubmit.co/vchandrukadambur71@mail.com" method='POST' className='contact-form ms-5'>
         <div className="cente">
            <div className="topic">
             <p className='title h3'>contact me</p>
@@ -22,6 +23,7 @@ const Communication = () => {
               </div> 
         </div>      
         </form>
+       </div>    
     </div>
     </>
   )

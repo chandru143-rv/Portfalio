@@ -13,13 +13,14 @@ const Home = () => {
        
           <div className='container-fluid home-cont'>
             <div className="row">
+              
                     <div className="col-2  symbol">
                        <i class="bi bi-envelope" data-aos="fade-right" data-aos-delay="70" data-aos-duration="3000"></i>
 
                               <a className='nav-link' href="https://github.com/chandru143-rv"><i class="bi bi-github" data-aos="fade-left"  data-aos-delay="70" data-aos-duration="3000"></i></a>
               
-                    </div>
-
+                   
+               </div>
               <div className="col-3 ms-1 mt-2 conc">
                                 <span className='span-hello'>H</span>
                                 <span className='span-hello'>E</span>
@@ -36,7 +37,7 @@ const Home = () => {
                           </div>
                </div>
                      <div className="col-6  box">
-                          <Spline  scene="https://prod.spline.design/yzbRG0hpKu3tFMOc/scene.splinecode" />
+                          <Spline   scene="https://prod.spline.design/yzbRG0hpKu3tFMOc/scene.splinecode" />
                       </div>
              </div>
          

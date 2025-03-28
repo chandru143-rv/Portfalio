@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <>
     
- <div className="eaducation-con">
+ <div className="eaducation-con mt-5">
 
     <p className='h2 cont ms-5' data-aos="fade-up-right"  data-aos-delay="50"
     data-aos-duration="2000" style={{color:'white', letterSpacing:'1rem'}}>Education</p> 

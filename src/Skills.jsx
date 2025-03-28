@@ -4,7 +4,7 @@ const Skills = () => {
   return (
   <>
   
-  <div className='skill_main'>
+  <div className='skill_main mt-5'>
   <p className='h2  ms-5 mt-5 cont'data-aos="fade-up-right"  data-aos-delay="50"
        data-aos-duration="2000" style={{color:'white', letterSpacing:'1rem' }}>Skills</p>
 
