@@ -15,13 +15,13 @@ body{
 nav{
   background-color:rgba(52, 107, 68, 0.27);
   backdrop-filter:blur(5px);
-  position:fixed !important;
+  position: fixed !important;;
   width:100%;
   z-index:999;
   top:0px;
 }
 .cont{
-  margin-top:5% !important;
+  margin-top:5% ;
 
 }
 .home-cont{
@@ -48,7 +48,6 @@ nav{
 }
 .nav-link:hover{
     color: green !important;
-  
 }
 span:nth-child(4){
   color:green;
@@ -505,7 +504,7 @@ footer .footer-links{
  
 }
 /* responsive */
-@media only screen and(max-width:1024) {
+@media only screen and(max-width: 1024px) {
   footer{
     display:flex;
     flex-wrap: wrap;
@@ -513,7 +512,7 @@ footer .footer-links{
  
 }
 
-@media only screen and (max-width:992px){
+@media only screen and (max-width: 992px){
    footer{
      display:flex;
      flex-wrap: wrap;
@@ -561,7 +560,7 @@ footer .footer-links{
   }
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width: 768px){
   .home-cont{
     margin-top:-3%;
   }
@@ -588,9 +587,9 @@ footer .footer-links{
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .porject-main{
-    position: relative;
-    left:-30%;
+  .porject-main {
+    flex-direction: column; 
+    gap: 1rem; 
   }
   .form-dummy{
     position: relative;
@@ -598,7 +597,7 @@ footer .footer-links{
   }
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width: 600px){
   .front, .backend, .data {
       height:100%;             
     text-align: center;
@@ -728,7 +727,7 @@ footer .footer-links{
   }
 } 
 
- @media  only screen and (max-width:491px) {
+ @media  only screen and (max-width: 491px) {
   .home-cont{
     margin-top:13%;
   }
@@ -772,7 +771,7 @@ footer .footer-links{
     left:7% !important;
   }
  }
- @media only screen and (max-width:425px){
+ @media only screen and (max-width: 425px){
   .symbol .bi-envelope{
     position: absolute;
    top:50% !important;
@@ -802,7 +801,7 @@ footer .footer-links{
 
  }
 
- @media only screen and (max-width:403px){
+ @media only screen and (max-width: 403px){
   .symbol .bi-envelope{
     position: absolute;
    top:54% !important;
@@ -831,9 +830,39 @@ footer .footer-links{
  }
 
 
- @media only screen and(max-width:361px){
+ @media only screen and(max-width: 361px){
   .home-cont{
     margin-top:20% !important;
+  }
+  .symbol .bi-envelope{
+    position: absolute;
+   top:50% !important;
+   left:25%;
+ 
+  }
+  .symbol .bi-github{
+    position: absolute;
+   top:54% !important;
+   left:10%;
+ 
+  }
+ }
+
+ @media only screen and(max-width: 331px){
+  .home-cont{
+    margin-top:-50% !important;
+  }
+  .symbol .bi-envelope{
+    position: absolute;
+   top:55% !important;
+   left:25%;
+ 
+  }
+  .symbol .bi-github{
+    position: absolute;
+   top:54% !important;
+   left:10%;
+ 
   }
  }
 .abotimage:hover{
