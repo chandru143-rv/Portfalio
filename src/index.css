@@ -606,14 +606,14 @@ footer .footer-links{
  
   .symbol .bi-envelope{
     position: absolute;
-   top:50% !important;
+   top:50% ;
 
    left:20%;
  
   }
   .symbol .bi-github{
     position: absolute;
-   top:50% !important;
+   top:50% ;
    left:10%;
  
   }
@@ -733,13 +733,13 @@ footer .footer-links{
   }
   .symbol .bi-envelope{
     position: absolute;
-   top:50% !important;
+   top:50% ;
    left:25%;
  
   }
   .symbol .bi-github{
     position: absolute;
-   top:50% !important;
+   top:50% ;
    left:10%;
  
   }
@@ -774,13 +774,13 @@ footer .footer-links{
  @media only screen and (max-width: 425px){
   .symbol .bi-envelope{
     position: absolute;
-   top:50% !important;
+   top:50%;
    left:25%;
  
   }
   .symbol .bi-github{
     position: absolute;
-   top:50% !important;
+   top:50% ;
    left:10%;
  
   }
@@ -855,14 +855,14 @@ footer .footer-links{
   }
   .symbol .bi-envelope{
     position: absolute;
-   top:55% !important;
+   top:55% ;
    left:25%;
  
   }
   
   .symbol .bi-github{
     position: absolute;
-   top:54% !important;
+   top:54%;
    left:10%;
  
   }
