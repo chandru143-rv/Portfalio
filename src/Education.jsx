@@ -9,6 +9,7 @@ const Education = () => {
 
     <p className='h2 cont ms-5' data-aos="fade-up-right"  data-aos-delay="50"
     data-aos-duration="2000" style={{color:'white', letterSpacing:'1rem'}}>Education</p> 
+ <div className="connet">  
     <div className="row off content" data-aos="zoom-in-up" data-aos-delay="50"
     data-aos-duration="2000">
       <div className="col-2  year-right"  >
@@ -42,6 +43,7 @@ const Education = () => {
        
       </div>
     </div>
+  </div>   
  </div> 
     </>
   )

@@ -607,13 +607,14 @@ footer .footer-links{
  
   .symbol .bi-envelope{
     position: absolute;
-   top:30% !important;
+   top:50% !important;
+
    left:20%;
  
   }
   .symbol .bi-github{
     position: absolute;
-   top:30% !important;
+   top:50% !important;
    left:10%;
  
   }
@@ -698,13 +699,13 @@ footer .footer-links{
     height:100%;
   }
   .comum .contact-form{
-    width:50% !important;
+    width:60% !important;
     position: relative;
     left:-10% !important;
   }
   .comum .form-dummy{
     position: relative;
-    left:-30%;
+    left:-10%;
   }
   
   
@@ -728,7 +729,9 @@ footer .footer-links{
 } 
 
  @media  only screen and (max-width:491px) {
-  
+  .home-cont{
+    margin-top:13%;
+  }
   .symbol .bi-envelope{
     position: absolute;
    top:50% !important;
@@ -757,7 +760,7 @@ footer .footer-links{
   .comum form{
     position: relative;
     top:-10px;
-    left:-14%;
+    left:-15% ;
     width:30% !important;
   }
   .porject-main details .suround .sum{
@@ -772,15 +775,65 @@ footer .footer-links{
  @media only screen and (max-width:425px){
   .symbol .bi-envelope{
     position: absolute;
-   top:47% !important;
+   top:50% !important;
    left:25%;
  
   }
   .symbol .bi-github{
     position: absolute;
-   top:47% !important;
+   top:50% !important;
    left:10%;
  
+  }
+  .cont{
+    letter-spacing:0.2rem !important;
+    margin-left:-25px !important;
+  }
+  .connet{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap:wrap;
+  }
+  .form-dummy{
+    position: relative;
+    left:-20% !important;
+  }
+
+ }
+
+ @media only screen and (max-width:403px){
+  .symbol .bi-envelope{
+    position: absolute;
+   top:54% !important;
+   left:25%;
+ 
+  }
+  .symbol .bi-github{
+    position: absolute;
+   top:54% !important;
+   left:10%;
+ 
+  }
+  .form-dummy{
+    position: relative;
+    left:-25% !important;
+  }
+  .education-content{
+    margin-top:-35% !important;
+  }
+
+  .abotimage{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+  }
+ }
+
+
+ @media only screen and(max-width:361px){
+  .home-cont{
+    margin-top:20% !important;
   }
  }
 .abotimage:hover{
