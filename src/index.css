@@ -573,7 +573,30 @@ footer .footer-links{
   .abou-content{
     margin-top:10% !important;
     width:100%;
-    
+  }
+  
+  .porject-main{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap:60px !important;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    position: relative;
+    height:200% !important;
+    overflow:hidden;
+  }
+  .project-content .porject-main .por-1,.project-content .porject-main .por-2{
+    position: relative;
+    height:200% !important;
+    width:100% !important;
+    left:7%;
+  }
+   .porject-main .por-1, .porject-main .por-2{
+    position: relative;
+    height:100% !important;
+    width:100% !important;
+    left:7%;
   }
   .cotent .about{
    width:100% !important;
@@ -606,14 +629,34 @@ footer .footer-links{
  
   .symbol .bi-envelope{
     position: absolute;
-   top:50% ;
-
+   top:50% !important;
    left:20%;
  
   }
+  .porject-main .por-1, .porject-main .por-2{
+    position: relative;
+    height:100% !important;
+    width:100% !important;
+    left:4%;
+    
+  }
+  .porject-main .por-1 , .porject-main .por-2 {
+    position: relative;
+    height:100% !important;
+    width:100% !important;
+    left:4%;
+    
+  }
+  .porject-main .por-1 details .suround .sum, .porject-main .por-2 details .suround .sum{
+    width:80% !important;
+  }
+  .porject-main .por-1 details .suround , .porject-main .por-2 details .suround{
+    width:80%;
+    height:50vh;
+  }
   .symbol .bi-github{
     position: absolute;
-   top:50% ;
+   top:50% !important;
    left:10%;
  
   }
@@ -656,7 +699,9 @@ footer .footer-links{
     justify-items: center;
   }
   .abotimage{
-    margin-left:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .home-cont .conc .con button{
@@ -669,34 +714,43 @@ footer .footer-links{
   }
   .porject-main{
     display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:center;
+    gap:100px !important;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap:wrap ;
     position: relative;
-    left:-5%;
+    overflow: hidden; 
+    height:100% !important;
   }
   .project-content .porject-main .por-1,.project-content .porject-main .por-2{
     position: relative;
-    height:100%;
-    width:100%;
+    height:100% !important;
+    width:100% !important;
     left:6%;
-    
   }
+  .por-1, .por-2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left:-30%;
+  }
+ .por-1 .sum{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:100%;
+  height:auto;
+ }
   #root{
     overflow: hidden;
   }
-  .por-1,.por-2{
-    position: relative;
-    height:100%;
-    width:100%;
-    left:-8%;
-    padding:10px;
-  }
+  
 
   .Skills-content .skill_main{
     height:100%;
   }
+
   .comum .contact-form{
     width:60% !important;
     position: relative;
@@ -706,7 +760,7 @@ footer .footer-links{
     position: relative;
     left:-10%;
   }
-  
+ 
   
   .year-right{
     width:100% !important;
@@ -722,9 +776,8 @@ footer .footer-links{
     text-decoration-color:rgb(55, 235, 136);
     text-decoration-thickness: 5px;
   }
-  .por-1 img,.por-2 img{
-    width:100%;
-  }
+  
+  
 } 
 
  @media  only screen and (max-width: 491px) {
@@ -733,13 +786,13 @@ footer .footer-links{
   }
   .symbol .bi-envelope{
     position: absolute;
-   top:50% ;
+   top:50% !important;
    left:25%;
  
   }
   .symbol .bi-github{
     position: absolute;
-   top:50% ;
+   top:50% !important;
    left:10%;
  
   }
@@ -754,7 +807,7 @@ footer .footer-links{
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
-    gap:200px;
+    gap:10px;
   }
   .comum form{
     position: relative;
@@ -774,15 +827,19 @@ footer .footer-links{
  @media only screen and (max-width: 425px){
   .symbol .bi-envelope{
     position: absolute;
-   top:50%;
+   top:50% !important;
    left:25%;
  
   }
   .symbol .bi-github{
     position: absolute;
-   top:50% ;
+   top:50% !important;
    left:10%;
  
+  }
+  .porject-main .por-1 details .suround , .porject-main .por-2 details .suround{
+    width:80%;
+    height:53vh;
   }
   .cont{
     letter-spacing:0.2rem !important;
@@ -846,6 +903,10 @@ footer .footer-links{
    left:10%;
  
   }
+  .porject-main .por-1 details .suround , .porject-main .por-2 details .suround{
+    width:80%;
+    height:60vh;
+  }
  
  }
 
@@ -855,14 +916,14 @@ footer .footer-links{
   }
   .symbol .bi-envelope{
     position: absolute;
-   top:55% ;
+   top:55% !important;
    left:25%;
  
   }
   
   .symbol .bi-github{
     position: absolute;
-   top:54%;
+   top:54% !important;
    left:10%;
  
   }
