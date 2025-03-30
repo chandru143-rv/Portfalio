@@ -785,9 +785,10 @@ footer .footer-links{
   .home-cont{
     margin-top:13%;
   }
-  /* .symbol{
-    display:none;
-  } */
+  .symbol{
+    position: absolute;
+    top:30% !important;
+  }
   .symbol .bi-envelope{
     position: absolute;
    top:50% !important;
