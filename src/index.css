@@ -652,7 +652,7 @@ footer .footer-links{
   }
   .porject-main .por-1 details .suround , .porject-main .por-2 details .suround{
     width:80%;
-    height:100%;
+    height:50vh;
   }
   .symbol .bi-github{
     position: absolute;
@@ -839,7 +839,7 @@ footer .footer-links{
   }
   .porject-main .por-1 details .suround , .porject-main .por-2 details .suround{
     width:80%;
-    height:100%;
+    height:53vh;
   }
   .cont{
     letter-spacing:0.2rem !important;
@@ -902,10 +902,6 @@ footer .footer-links{
    top:54% !important;
    left:10%;
  
-  }
-  .porject-main .por-1 details .suround , .porject-main .por-2 details .suround{
-    width:80%;
-    height:100%;
   }
  
  }
