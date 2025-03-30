@@ -503,6 +503,9 @@ footer .footer-links{
  justify-content:center;
  
 }
+.title-nork{
+  display:none;
+}
 /* responsive */
 @media only screen and(max-width: 1024px) {
   footer{
