@@ -788,8 +788,8 @@ footer .footer-links{
 
   .symbol .bi-envelope{
     position: absolute;
-   top:50% !important;
-   left:25%;
+   top:60%;
+   left:30%;
  
   }
   .box{
@@ -798,7 +798,7 @@ footer .footer-links{
   }
   .symbol .bi-github{
     position: absolute;
-   top:50% !important;
+   top:60% !important;
    left:10%;
  
   }
@@ -843,9 +843,7 @@ footer .footer-links{
    left:10%;
  
   }
-     .symbol{
-    display:none;
-  } 
+   
   .porject-main .por-1 details .suround , .porject-main .por-2 details .suround{
     width:80%;
     height:53vh;
