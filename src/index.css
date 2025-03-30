@@ -785,10 +785,7 @@ footer .footer-links{
   .home-cont{
     margin-top:13%;
   }
-  .symbol{
-    position: absolute;
-    top:30% !important;
-  }
+
   .symbol .bi-envelope{
     position: absolute;
    top:50% !important;
@@ -846,6 +843,9 @@ footer .footer-links{
    left:10%;
  
   }
+     .symbol{
+    display:none;
+  } 
   .porject-main .por-1 details .suround , .porject-main .por-2 details .suround{
     width:80%;
     height:53vh;
