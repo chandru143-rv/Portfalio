@@ -633,9 +633,7 @@ footer .footer-links{
    left:20%;
  
   }
-  .symbol{
-    display:none;
-  }
+  
   .porject-main .por-1, .porject-main .por-2{
     position: relative;
     height:100% !important;
@@ -786,6 +784,9 @@ footer .footer-links{
  @media  only screen and (max-width: 491px) {
   .home-cont{
     margin-top:13%;
+  }
+  .symbol{
+    display:none;
   }
   .symbol .bi-envelope{
     position: absolute;
