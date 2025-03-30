@@ -792,9 +792,17 @@ footer .footer-links{
    left:30%;
  
   }
+  .title-nork{
+    float: left;
+  }
+  .title-nork li{
+    padding:10px;
+    display:none;
+  }
   .box{
     position: relative !important;
     top:-110px !important;
+    height:70%;
   }
   .symbol .bi-github{
     position: absolute;
