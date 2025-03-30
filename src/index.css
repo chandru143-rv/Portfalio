@@ -785,14 +785,18 @@ footer .footer-links{
   .home-cont{
     margin-top:13%;
   }
-  .symbol{
+  /* .symbol{
     display:none;
-  }
+  } */
   .symbol .bi-envelope{
     position: absolute;
    top:50% !important;
    left:25%;
  
+  }
+  .box{
+    position: relative !important;
+    top:-110px !important;
   }
   .symbol .bi-github{
     position: absolute;
