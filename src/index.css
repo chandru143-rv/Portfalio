@@ -629,7 +629,9 @@ footer .footer-links{
     text-align: center;
      box-shadow:none;      
   }
- 
+ .symbol{
+  display:none;
+ }
   .symbol .bi-envelope{
     position: absolute;
    top:50% !important;
