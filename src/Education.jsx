@@ -16,15 +16,17 @@ const Education = () => {
         <p className='o'>2020</p>
       </div>
       <div className="col-10  p-4 o">
+      <p>Bachelor of Engineering in Computer Science Engineering </p>
         <p>ST.Anne's College Of Engineering And Technology , Cuddalore</p>
-        <p>Bachelor of Engineering in Computer Science Engineering </p>
+        
       </div>
     </div>
     <div className="row off mt-4" data-aos="zoom-in-left" data-aos-delay="50"
     data-aos-duration="2000">
       <div className="col-10 p-4 o">
-        <p>Government Higher Secondary School , veerapermanalur</p>
         <p>Higher Secondary Certificate</p>
+        <p>Government Higher Secondary School , veerapermanalur</p>
+        
       </div>
       
       <div className="col-2 year-left">
@@ -38,8 +40,9 @@ const Education = () => {
         <p className='o'>2018</p>
       </div>
       <div className="col-10 p-4 o">
+      <p>Secondary School Leaving Certificate</p>
         <p>Government High School , kadambur</p>
-        <p>Secondary School Leaving Certificate</p>
+        
        
       </div>
     </div>
