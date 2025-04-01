@@ -38,7 +38,7 @@ const Home = () => {
                                    <a className='nav-link' href="chandru fin (1).pdf" download="v chandru"><button data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="4000">Resume</button></a>
                                    
                 
-                                  
+    
                                 </div>    
                           </div>
                </div>

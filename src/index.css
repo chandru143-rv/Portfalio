@@ -629,8 +629,16 @@ footer .footer-links{
     text-align: center;
      box-shadow:none;      
   }
-
-  
+   
+  .float{
+    display: inline !important;
+    width:20px !important;
+  }
+  .float .nav-link{
+    display: inline !important;
+    width:20px !important;
+    height:10px !important;
+  }
  
   .symbol .bi-envelope{
     position: absolute;
