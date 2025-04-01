@@ -33,13 +33,13 @@ const Home = () => {
                                         Welcome to my portfolio! Here, 
                                         you can explore my work and see the skills I bring to each project
                                       </p>
-                                 
+                                <div className="float">
+        
                                    <a className='nav-link' href="chandru fin (1).pdf" download="v chandru"><button data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="4000">Resume</button></a>
-                                   <ul className='title-nork'>
-                                    <li className='nav-link'><i class="bi bi-envelope" data-aos="fade-right" data-aos-delay="70" data-aos-duration="3000"></i></li>
-                                    <li className='nav-link'> <a className='nav-link' href="https://github.com/chandru143-rv"><i class="bi bi-github" data-aos="fade-left"  data-aos-delay="70" data-aos-duration="3000"></i></a>
-                                    </li>
-                                   </ul>
+                                   
+                
+                                  
+                                </div>    
                           </div>
                </div>
                      <div className="col-6  box">
